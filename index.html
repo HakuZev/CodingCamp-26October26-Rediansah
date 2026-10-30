@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense &amp; Budget Visualizer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Chart_Library (CDN, pinned version) — excluded from the single-file constraint per Requirement 6.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Expense &amp; Budget Visualizer</h1>
+      <section id="balance-display" aria-live="polite">
+        <!-- Balance_View populated by JS -->
+      </section>
+    </header>
+
+    <!-- Dismissible message area for storage errors (populated/toggled by JS) -->
+    <div id="message-area" class="message-area" role="alert" hidden>
+      <span id="message-text"></span>
+      <button type="button" id="message-dismiss" class="message-dismiss" aria-label="Dismiss message">&times;</button>
+    </div>
+
+    <main>
+      <!-- Transaction_Form: Item_Name, Amount, Category, submit -->
+      <section id="transaction-form">
+        <h2>Add a Transaction</h2>
+        <form id="expense-form" novalidate>
+          <div class="form-field">
+            <label for="item-name">Item name</label>
+            <input type="text" id="item-name" name="itemName" maxlength="100" placeholder="e.g. Lunch" autocomplete="off" />
+            <span class="error-message" id="item-name-error" aria-live="polite"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" name="amount" step="0.01" placeholder="e.g. 12.50" autocomplete="off" />
+            <span class="error-message" id="amount-error" aria-live="polite"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="category">Category</label>
+            <!-- No category pre-selected per Requirement 10.3: placeholder has value="" and no `selected` attribute -->
+            <select id="category" name="category" required>
+              <option value="">Select a category</option>
+              <option value="Food">Food</option>
+              <option value="Transport">Transport</option>
+              <option value="Fun">Fun</option>
+            </select>
+            <span class="error-message" id="category-error" aria-live="polite"></span>
+          </div>
+
+          <button type="submit" id="submit-btn">Add Transaction</button>
+        </form>
+      </section>
+
+      <!-- Transaction_List: scrollable container (Requirement 2.2) -->
+      <section class="panel">
+        <h2>Transactions</h2>
+        <section id="transaction-list" aria-label="Transaction list">
+          <p id="list-empty-hint" class="empty-hint">No transactions yet. Add one above.</p>
+          <!-- Transaction rows rendered by JS -->
+        </section>
+      </section>
+
+      <!-- Category_Chart -->
+      <section class="panel">
+        <h2>Spending by Category</h2>
+        <section id="category-chart">
+          <canvas id="pie-chart"></canvas>
+          <p id="chart-empty-placeholder" class="chart-empty-state">Belum ada data pengeluaran.</p>
+        </section>
+      </section>
+    </main>
+
+    <!-- Application behavior (single JS file in js/ per Requirement 6.3) -->
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

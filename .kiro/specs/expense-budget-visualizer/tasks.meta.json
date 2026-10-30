@@ -1,0 +1,230 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Set up project structure and static HTML/CSS scaffold": [
+      {
+        "executionId": "68c00399-bfe2-4cf9-99b3-21ecd0e46c94",
+        "chatSessionId": "sess_5566c033-6ab3-404f-a0fa-642d0131e180",
+        "timestamp": 1793348188753
+      },
+      {
+        "executionId": "68c00399-bfe2-4cf9-99b3-21ecd0e46c94",
+        "chatSessionId": "sess_5566c033-6ab3-404f-a0fa-642d0131e180",
+        "timestamp": 1793348402154
+      }
+    ],
+    "3.1 Implement `calculateBalance(transactions)` and `aggregateByCategory(transactions)` in `js/app.js`": [
+      {
+        "executionId": "376bdb2f-75a4-4944-8ae4-3a9d0ab6c2f5",
+        "chatSessionId": "sess_c0d9b5d6-cf25-4ddf-9251-889930f38815",
+        "timestamp": 1793348582233
+      },
+      {
+        "executionId": "376bdb2f-75a4-4944-8ae4-3a9d0ab6c2f5",
+        "chatSessionId": "sess_c0d9b5d6-cf25-4ddf-9251-889930f38815",
+        "timestamp": 1793349465488
+      }
+    ],
+    "3. Implement the pure calculators (balance and category aggregation)": [
+      {
+        "executionId": "376bdb2f-75a4-4944-8ae4-3a9d0ab6c2f5",
+        "chatSessionId": "sess_c0d9b5d6-cf25-4ddf-9251-889930f38815",
+        "timestamp": 1793349466402
+      }
+    ],
+    "2.1 Implement `validateTransaction(input)` and `createTransaction(input)` in `js/app.js`": [
+      {
+        "executionId": "27a20920-3b84-4747-bc79-bfa5552683a2",
+        "chatSessionId": "sess_33d4e58a-8d24-4040-a18e-1808d009c09d",
+        "timestamp": 1793349493354
+      },
+      {
+        "executionId": "27a20920-3b84-4747-bc79-bfa5552683a2",
+        "chatSessionId": "sess_33d4e58a-8d24-4040-a18e-1808d009c09d",
+        "timestamp": 1793349694523
+      }
+    ],
+    "2. Implement the pure validation and transaction factory logic": [
+      {
+        "executionId": "27a20920-3b84-4747-bc79-bfa5552683a2",
+        "chatSessionId": "sess_33d4e58a-8d24-4040-a18e-1808d009c09d",
+        "timestamp": 1793349695100
+      }
+    ],
+    "4.1 Implement `serializeTransactions(transactions)` and `deserializeTransactions(raw)` in `js/app.js`": [
+      {
+        "executionId": "f3ff9f9d-639f-422b-b8d8-48878d7cdd6e",
+        "chatSessionId": "sess_e75aa3df-717e-466f-80fb-abb264c7de8d",
+        "timestamp": 1793349722331
+      },
+      {
+        "executionId": "f3ff9f9d-639f-422b-b8d8-48878d7cdd6e",
+        "chatSessionId": "sess_e75aa3df-717e-466f-80fb-abb264c7de8d",
+        "timestamp": 1793350090463
+      }
+    ],
+    "4. Implement the pure storage codec and the pure delete operation": [
+      {
+        "executionId": "f3ff9f9d-639f-422b-b8d8-48878d7cdd6e",
+        "chatSessionId": "sess_e75aa3df-717e-466f-80fb-abb264c7de8d",
+        "timestamp": 1793350090946
+      }
+    ],
+    "5.1 Add the `module.exports` guard to `js/app.js`": [
+      {
+        "executionId": "7a03c92f-625f-473a-a215-19c60d7b1f73",
+        "chatSessionId": "sess_c929ce5b-d1e5-4d1f-8d15-fc8c260bc658",
+        "timestamp": 1793350228453
+      },
+      {
+        "executionId": "7a03c92f-625f-473a-a215-19c60d7b1f73",
+        "chatSessionId": "sess_c929ce5b-d1e5-4d1f-8d15-fc8c260bc658",
+        "timestamp": 1793350396505
+      }
+    ],
+    "5. Configure conditional Node exports for the pure functions": [
+      {
+        "executionId": "7a03c92f-625f-473a-a215-19c60d7b1f73",
+        "chatSessionId": "sess_c929ce5b-d1e5-4d1f-8d15-fc8c260bc658",
+        "timestamp": 1793350397523
+      }
+    ],
+    "7.1 Implement `loadTransactions()` and `saveTransactions(transactions)` in `js/app.js`": [
+      {
+        "executionId": "d90ad38d-7967-44d4-844c-1764956b3014",
+        "chatSessionId": "sess_836661cd-a4d0-4321-9fc4-d06e4b38ca2c",
+        "timestamp": 1793351035750
+      },
+      {
+        "executionId": "d388b4a8-2638-4ac8-adde-819f97f6e758",
+        "chatSessionId": "sess_11ce860b-f1b3-4454-a821-d52dad8a86eb",
+        "timestamp": 1793358004148
+      },
+      {
+        "executionId": "d388b4a8-2638-4ac8-adde-819f97f6e758",
+        "chatSessionId": "sess_11ce860b-f1b3-4454-a821-d52dad8a86eb",
+        "timestamp": 1793358055244
+      }
+    ],
+    "7. Implement the storage adapter (localStorage I/O)": [
+      {
+        "executionId": "d388b4a8-2638-4ac8-adde-819f97f6e758",
+        "chatSessionId": "sess_11ce860b-f1b3-4454-a821-d52dad8a86eb",
+        "timestamp": 1793358055834
+      }
+    ],
+    "8.1 Implement `renderTransactionList(transactions)` and `renderBalance(transactions)` in `js/app.js`": [
+      {
+        "executionId": "cf296365-4704-4ecb-b11a-532bfe615ed4",
+        "chatSessionId": "sess_22849ced-4aca-4852-80d5-7bf4c9604f00",
+        "timestamp": 1793358303829
+      },
+      {
+        "executionId": "cf296365-4704-4ecb-b11a-532bfe615ed4",
+        "chatSessionId": "sess_22849ced-4aca-4852-80d5-7bf4c9604f00",
+        "timestamp": 1793358581589
+      }
+    ],
+    "8.2 Implement `renderChart(transactions)` in `js/app.js`": [
+      {
+        "executionId": "cf296365-4704-4ecb-b11a-532bfe615ed4",
+        "chatSessionId": "sess_22849ced-4aca-4852-80d5-7bf4c9604f00",
+        "timestamp": 1793358589139
+      },
+      {
+        "executionId": "10ec0f6d-2049-4336-9ddb-63b52ff9fd87",
+        "chatSessionId": "sess_b51ee06d-6afc-4e76-82c4-7d6b02cfd03e",
+        "timestamp": 1793359492609
+      },
+      {
+        "executionId": "10ec0f6d-2049-4336-9ddb-63b52ff9fd87",
+        "chatSessionId": "sess_b51ee06d-6afc-4e76-82c4-7d6b02cfd03e",
+        "timestamp": 1793359538980
+      }
+    ],
+    "10.1 Wire the Transaction_Form fields and validation message display in `js/app.js`": [
+      {
+        "executionId": "4ded1b4c-ee83-44ca-a824-169b962e0575",
+        "chatSessionId": "sess_d6c8c215-acd9-4096-bf8a-9f556b4ab614",
+        "timestamp": 1793358757216
+      },
+      {
+        "executionId": "4ded1b4c-ee83-44ca-a824-169b962e0575",
+        "chatSessionId": "sess_d6c8c215-acd9-4096-bf8a-9f556b4ab614",
+        "timestamp": 1793358884538
+      }
+    ],
+    "10. Implement the form, category selector, and validation message wiring": [
+      {
+        "executionId": "4ded1b4c-ee83-44ca-a824-169b962e0575",
+        "chatSessionId": "sess_d6c8c215-acd9-4096-bf8a-9f556b4ab614",
+        "timestamp": 1793358885508
+      }
+    ],
+    "12.1 Implement configuration tests for single-file and visual-design constraints": [
+      {
+        "executionId": "fee3640d-41b4-4e7f-98e7-04065e7610d1",
+        "chatSessionId": "sess_2485e2da-acb2-48a6-adfa-140359da44ab",
+        "timestamp": 1793358936945
+      },
+      {
+        "executionId": "88d98fc7-83ad-449f-8679-ccd0edf64b85",
+        "chatSessionId": "sess_351a3d2b-ee90-483b-9297-24de324c521b",
+        "timestamp": 1793359610187
+      },
+      {
+        "executionId": "d7ee04fa-cc7f-4763-af80-611daca14005",
+        "chatSessionId": "sess_351a3d2b-ee90-483b-9297-24de324c521b",
+        "timestamp": 1793360074664
+      },
+      {
+        "executionId": "d7ee04fa-cc7f-4763-af80-611daca14005",
+        "chatSessionId": "sess_351a3d2b-ee90-483b-9297-24de324c521b",
+        "timestamp": 1793360239698
+      },
+      {
+        "executionId": "cbb3787b-2f67-4130-bc49-8063e002e84e",
+        "chatSessionId": "sess_351a3d2b-ee90-483b-9297-24de324c521b",
+        "timestamp": 1793361130886
+      },
+      {
+        "executionId": "cbb3787b-2f67-4130-bc49-8063e002e84e",
+        "chatSessionId": "sess_351a3d2b-ee90-483b-9297-24de324c521b",
+        "timestamp": 1793361283721
+      }
+    ],
+    "8. Implement the DOM views (list, balance, chart)": [
+      {
+        "executionId": "10ec0f6d-2049-4336-9ddb-63b52ff9fd87",
+        "chatSessionId": "sess_b51ee06d-6afc-4e76-82c4-7d6b02cfd03e",
+        "timestamp": 1793359539896
+      }
+    ],
+    "9.1 Implement `render()`, `handleSubmit(event)`, `handleDelete(transactionId)`, and `init()` in `js/app.js`": [
+      {
+        "executionId": "1da64784-b7ee-4664-9fc3-37c3260d72eb",
+        "chatSessionId": "sess_351a3d2b-ee90-483b-9297-24de324c521b",
+        "timestamp": 1793359882970
+      },
+      {
+        "executionId": "1da64784-b7ee-4664-9fc3-37c3260d72eb",
+        "chatSessionId": "sess_351a3d2b-ee90-483b-9297-24de324c521b",
+        "timestamp": 1793359949479
+      }
+    ],
+    "9. Implement the controller, render orchestrator, and bootstrap": [
+      {
+        "executionId": "1da64784-b7ee-4664-9fc3-37c3260d72eb",
+        "chatSessionId": "sess_351a3d2b-ee90-483b-9297-24de324c521b",
+        "timestamp": 1793359950396
+      }
+    ],
+    "12. Write smoke/configuration tests for project structure, visual design, and scroll": [
+      {
+        "executionId": "cbb3787b-2f67-4130-bc49-8063e002e84e",
+        "chatSessionId": "sess_351a3d2b-ee90-483b-9297-24de324c521b",
+        "timestamp": 1793361284756
+      }
+    ]
+  }
+}
